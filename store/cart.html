@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoomerce-Store-Cart</title>
+    <link rel="stylesheet" href="/store/store.css">
+    <script src="/store/data.js" defer></script>
+    <script src="/store/cart.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="/store/store.html">
+        <p class="logo">Ecoomerce Store</p>
+        </a>
+        <a href="/store/cart.html">
+        <div class="cart-parent">
+            <img src="/store/images/cart.png" class="cart">
+            <p class="cart-number">0</p>
+        </div>
+        </a>
+     </nav>
+     <div class="label">
+     <div id = "tottal-price">Tottal Price:<p id="final">  </p></div>
+        <div class = "buttons">
+        <button class ="button-green">Checkout </button>
+        <button class ="button-red" onclick = "emptying()">Clear Cart </button>
+        </div>
+    </div>
+     <div id="cart">
+        
+
+     </div>
+    
+</body>
+</html>
